@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body{
+    background: url('background.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title{
+        font-family: "VT323", monospace;
+        font-size: 50px;
+        color: gray;
+}
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+}
+.descripition{
+    font-family: "VT323", monospace;
+    font-size: 50px;
+    color: gray;
+}
+.txt1{
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    color: whitesmoke;
+    text-align: center;
+}
+.txt2{
+    font-family: "VT323", monospace;
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+}
+.basic{
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    color: green;
+    text-align: center;
+}
+.Features{
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+.important{
+    font-family: "VT323", monospace;
+    font-size: 50px;
+    color: red;
+    text-align: center; 
+}
+.download{
+    font-size: 10px;
+    color: blueviolet;
+}
+.btn1{
+    font-size: 2rem;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    border: 10px;
+    border-radius: 5px;
+    transition: transform 0.4s;
+    color: blue;
+}
+
+.btn1:hover{
+    transform: translateY(-10px);
+}
