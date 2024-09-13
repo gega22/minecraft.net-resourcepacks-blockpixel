@@ -5,6 +5,23 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+.btn {
+    float: right;
+    background-color: #333333;
+    border: none;
+    color: blue;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-in-out;
+      a {
+        text-decoration: none;
+        color: inherit;
+        cursor: default;
+      }
+  }
 .title{
         font-family: "VT323", monospace;
         font-size: 50px;
@@ -53,19 +70,6 @@ body{
     text-align: center; 
 }
 .download{
-    font-size: 10px;
-    color: blueviolet;
-}
-.btn1{
-    font-size: 2rem;
-    padding: 0.5em 1em;
-    font-weight: 700;
-    border: 10px;
-    border-radius: 5px;
-    transition: transform 0.4s;
-    color: blue;
-}
-
-.btn1:hover{
-    transform: translateY(-10px);
+    font-size: 12px;
+    color: aqua;
 }
